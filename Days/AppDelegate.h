@@ -8,8 +8,15 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate> {
+    IBOutlet NSMenu *statusMenu;
+    NSStatusItem *statusItem;
+}
+
+
+- (IBAction) refreshDays:(id) sender;
 
 @property (assign) IBOutlet NSWindow *window;
+
 
 @end

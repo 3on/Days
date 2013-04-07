@@ -10,9 +10,23 @@
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
-    // Insert code here to initialize your application
+- (void)awakeFromNib {
+    statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
+    
+    [statusItem setTitle:@"42"];
+    [statusItem setToolTip:@"Days of drought"];
+    [statusItem setMenu:statusMenu];
+    
+    NSLog(@"Awake from  Nib");
+    [self update];
+}
+
+- (IBAction)refreshDays:(id)sender {
+    NSLog(@"refresh days");
+}
+
+- (void)update {
+    NSLog(@"update");
 }
 
 @end
