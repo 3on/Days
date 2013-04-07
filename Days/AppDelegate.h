@@ -15,6 +15,7 @@
 
 
 - (IBAction) refreshDays:(id) sender;
+- (IBAction) editDayst:(id) sender;
 
 @property (assign) IBOutlet NSWindow *window;
 
