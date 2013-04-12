@@ -10,6 +10,7 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate> {
     IBOutlet NSMenu *statusMenu;
+    IBOutlet NSView *test;
     NSStatusItem *statusItem;
 }
 

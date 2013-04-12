@@ -17,6 +17,7 @@
     [statusItem setToolTip:@"Days of drought"];
     [statusItem setMenu:statusMenu];
     [statusItem setTitle:@"-"];
+    //[statusItem setView:test];
     [statusItem setHighlightMode:YES];
     
     NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:360 target:self selector:@selector(refresh) userInfo:nil repeats:YES];

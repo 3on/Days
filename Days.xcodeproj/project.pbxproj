@@ -21,6 +21,7 @@
 		2B35EA97170F918300A7BA83 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B35EA8C170F918300A7BA83 /* AFURLConnectionOperation.m */; };
 		2B35EA98170F918300A7BA83 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B35EA8E170F918300A7BA83 /* AFXMLRequestOperation.m */; };
 		2B35EA99170F918300A7BA83 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B35EA90170F918300A7BA83 /* UIImageView+AFNetworking.m */; };
+		2B7DDC561714D87000E0ABB8 /* ribon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7DDC551714D87000E0ABB8 /* ribon.png */; };
 		2BB19998170F3BE8008E74AC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB19997170F3BE8008E74AC /* Cocoa.framework */; };
 		2BB199B6170F3BE8008E74AC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB199B5170F3BE8008E74AC /* SenTestingKit.framework */; };
 		2BB199B7170F3BE8008E74AC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB19997170F3BE8008E74AC /* Cocoa.framework */; };
@@ -65,6 +66,7 @@
 		2B35EA8E170F918300A7BA83 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
 		2B35EA8F170F918300A7BA83 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		2B35EA90170F918300A7BA83 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		2B7DDC551714D87000E0ABB8 /* ribon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ribon.png; sourceTree = "<group>"; };
 		2BB19994170F3BE8008E74AC /* Days.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Days.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BB19997170F3BE8008E74AC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		2BB1999A170F3BE8008E74AC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -142,6 +144,7 @@
 		2BB1998B170F3BE8008E74AC = {
 			isa = PBXGroup;
 			children = (
+				2B7DDC551714D87000E0ABB8 /* ribon.png */,
 				2B35EA7D170F918300A7BA83 /* AFNetworking */,
 				2B35EA69170F90B800A7BA83 /* Days */,
 				2BB199BA170F3BE8008E74AC /* DaysTests */,
@@ -272,6 +275,7 @@
 				2B35EA77170F90B800A7BA83 /* Days-Info.plist in Resources */,
 				2B35EA79170F90B800A7BA83 /* Credits.rtf in Resources */,
 				2B35EA7B170F90B800A7BA83 /* MainMenu.xib in Resources */,
+				2B7DDC561714D87000E0ABB8 /* ribon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
